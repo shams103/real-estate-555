@@ -1,0 +1,45 @@
+.contact form div {
+  display: flex;
+}
+.contact textarea {
+  border: 0.05rem solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 0.3rem;
+  margin-bottom: 1.4rem;
+  padding: 2rem;
+}
+.contact input {
+  margin-bottom: 0.8rem;
+ 
+}
+.contact input:nth-child(1) {
+  margin-right: 0.8rem;
+}
+.contact form {
+  padding: 2rem;
+}
+.contact form h4{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .contact form div {
+  
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact h4 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .contact form div {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.recent .text {
+  padding: 2rem; 
+}
+.recent label{
+  font-size: 1.2rem;
+}
+.recent .category{
+  margin-bottom: 1.2rem;
+}
+.recent .category span {
+  padding: 0.3rem 1rem;
+  border-radius: 0.1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.recent .category i {
+  font-size: 2rem;
+  color: #bec7d8;
+}
+.recent h4 {
+    font-size: 1.6rem;
+}
+.recent .poo {
+  color: #72809d;
+  font-size: 1.2rem;
+}
+.recent span {
+  font-size: 1.3rem;
+}
+.recent .button {
+  border-top: 1px solid #e4e8f3;
+  padding: 0.8rem 2rem;
+}
+.recent .img {
+  width: 100%;
+  height: 27rem;
+  overflow: hidden;  
+}
+
+.recent .img img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.7s; 
+}
+.recent img:hover{
+  transform: scale(1.2); 
+}
+
+

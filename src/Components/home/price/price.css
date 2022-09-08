@@ -1,0 +1,70 @@
+.price {
+    text-align: center;
+  }
+  
+  
+  .price .content .box {
+    width: 31.5%;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    /* border: 2px solid red; */
+  }
+  .price button {
+    margin-bottom: 1.5rem;
+  }
+  .price .box:nth-child(1) .topbtn button,
+  .price .box:nth-child(3) .topbtn button {
+    display: none;
+  }
+  .price h3 {
+    font-size: 1.5rem;
+  }
+  .price h1 {
+    font-size: 4rem;
+  }
+  .price h1 span {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .price p{
+    font-size: 1.3rem;
+  }
+  .price ul {
+    margin-top: 2.4rem;
+  }
+  .price ul li {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+  .price label {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+  }
+  
+  .price .btn5 {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 650px) {
+    .price .content {
+      flex-direction: column;
+    }
+  
+    .price .content .box {
+      width: 100%;
+      padding: 2rem;
+      border-radius: 0.8rem;
+      margin-bottom: 3rem;
+    }
+  }
+  

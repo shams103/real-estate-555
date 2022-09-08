@@ -1,0 +1,93 @@
+.team .box {
+    background: #ffffff;
+    border-radius: 6px;
+    border: 1px solid rgb(62 28 131 / 10%);
+    padding: 2rem;
+    transition: 0.5s;
+  }
+  .team .box:hover {
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    cursor: pointer;
+  }
+  .team .details {
+    text-align: center;
+    margin-top: 2.3rem;
+
+  }
+  .team .img {
+    width: 14rem;
+    height: 14rem;
+    margin: auto;
+    position: relative;
+  }
+  .team img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: .7rem solid #dadada;
+  }
+  .team .details:hover img {
+    border: .7rem solid #27ae60;
+  }
+
+  .team .img i {
+    color: #108be7;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 7rem;
+    right: -1.1rem;
+  }
+ 
+  .team label {
+    display: inline-block;
+    margin-top: 1.4rem;
+    font-size: 1.2rem;
+  }
+  .team i {
+   
+    margin-right: 0.4rem;
+    transition: none;
+  }
+  .team ul {
+    display: inline-block;
+    margin-top: 0.8rem;
+   
+  }
+  .team ul li {
+    display: inline-block;
+    width: 3.3rem;
+    height: 3.3rem;
+    line-height: 3.3rem;
+    background-color: #f4f5f7;
+    border-radius: 50%;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    color: grey;
+ 
+  }
+  .team ul li:hover{
+    background-color: #27ae60;
+    color: #fff;
+  
+  }
+  .team ul li i{
+    margin-right: 0;
+  }
+
+  .team .button {
+    margin-top: 1.2rem;
+  }
+  .team .button button{
+    background: transparent;
+  }
+  .team .button i {
+    color: #000;
+    font-size: 2.2rem;
+  }
+  .team .button i:hover {
+    color: #27ae60;
+  }
+
+  .team h4 {
+    font-size: 1.5rem;
+  }
